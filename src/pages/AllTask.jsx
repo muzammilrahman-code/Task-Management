@@ -3,7 +3,7 @@ import Cards from '../components/Home/Cards'
 import { IoAddCircleSharp } from "react-icons/io5";
 import InputData from '../components/Home/InputData';
 import axios from 'axios';
-import { BASE_URL } from '../../utils/api';
+import { BASE_URL } from '../utils/api';
 
 
 const AllTAsk = () => {

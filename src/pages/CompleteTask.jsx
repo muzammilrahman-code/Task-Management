@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Cards from '../components/Home/Cards'
 import axios from 'axios';
-import { BASE_URL } from '../../utils/api';
+import { BASE_URL } from '../utils/api';
 
 const CompleteTask = () => {
    const [Data, setData] = useState()

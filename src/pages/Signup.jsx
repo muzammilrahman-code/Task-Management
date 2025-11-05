@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import { useSelector } from 'react-redux';
-import { BASE_URL } from '../../utils/api';
+import { BASE_URL } from '../utils/api';
 
 const Signup = () => {
     const isLoggedIn = useSelector((state) => state.auth.isLoggedIn);

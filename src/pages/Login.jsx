@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import {authAction} from '../store/auth';
 import { useDispatch, useSelector } from 'react-redux';
 import axios from 'axios';
-import { BASE_URL } from '../../utils/api';
+import { BASE_URL } from '../utils/api';
 
 const Login = () => {
    const [data, setData] = useState({ username: "", password: "" });
